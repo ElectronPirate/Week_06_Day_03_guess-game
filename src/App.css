@@ -2,14 +2,48 @@
   text-align: center;
 }
 
-#logo {
+#image {
   position:relative;
-  left:35%;
+  left:30%;
 }
 
-.ui-container{
-  display: inline!important;
-    
+#Qform {
+  position:relative;
+  left:30%;
+
+}
+
+#Gform {
+  position:relative!important;
+  left:37%!important;
+  border: solid black 1px!important;
+  border-radius: 8px!important;
+  display: inline-block!important;
+  padding: 30px!important;
+  /* display: inline-flex!important; */
+}
+
+#Gbutton{
+  border: solid green 3px!important;
+}
+
+.ui-card{
+  width: 150px!important;
+  height: 200px!important;
+  padding: 5px!important;
+  margin-left: 5px!important;
+  border-radius: 15px!important;
+
+}
+
+
+
+.ui-cards{
+  align-items: flex-start!important;
+  position: relative!important;
+  left:10%!important;
+
+
 }
 
 .App-header {

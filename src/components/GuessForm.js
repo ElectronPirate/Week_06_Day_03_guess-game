@@ -1,17 +1,21 @@
 import React, {Component} from 'react';
 
+import '../App.css';
+
 class GuessForm extends Component{
 
 
 
   render(){
     return(
-      <form onSubmit={this.handleSubmit}>
+      <form className="ui-form" id="Gform" onSubmit={this.handleSubmit}>
 
 
 
 
            <label>Make a Guess</label>
+
+
            <select>
             <option>Harry</option>
 
@@ -20,10 +24,14 @@ class GuessForm extends Component{
 
 
 
-            <input type="submit"
-              className = "ui positive button"
+
+
+
+            <input id="Gbutton" type="submit"
+              className = "ui basic green button"
 
               value='Guess!'/>
+
 
       </form>
     )

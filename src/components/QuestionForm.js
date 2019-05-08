@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import '../App.css';
+
 
 class QuestionForm extends Component{
 
@@ -18,7 +20,7 @@ class QuestionForm extends Component{
 
   render(){
     return(
-      <form onSubmit={this.populateCharacteristics}>
+      <form className="ui-form" id="Qform" onSubmit={this.populateCharacteristics}>
 
            <label>Guess a characeristic</label>
            <select onChange={this.characteristicChange}>

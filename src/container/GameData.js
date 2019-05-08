@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import ImageDisplay from '../components/ImageDisplay';
 import QuestionForm from '../components/QuestionForm';
 import GuessForm from '../components/GuessForm';
+import '../App.css';
 
 
 
@@ -90,7 +91,9 @@ render(){
   return(
 
     <>
+    <div id="image">
     <img src='/images/guess.png' />
+    </div>
     <ImageDisplay />
     <QuestionForm characters={this.state.characters} />
     <br></br>
