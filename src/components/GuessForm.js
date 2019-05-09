@@ -28,7 +28,7 @@ class GuessForm extends Component{
 
 
             <input id="Gbutton" type="submit"
-              className = "ui basic green button"
+              className = "ui basic button"
 
               value='Guess!'/>
 

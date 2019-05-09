@@ -16,7 +16,7 @@
 #Gform {
   position:relative!important;
   left:37%!important;
-  border: solid black 1px!important;
+  border: solid black 2px!important;
   border-radius: 8px!important;
   display: inline-block!important;
   padding: 30px!important;
@@ -24,7 +24,7 @@
 }
 
 #Gbutton{
-  border: solid green 3px!important;
+  border: solid red 3px!important;
 }
 
 .ui-card{

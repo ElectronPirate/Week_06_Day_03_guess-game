@@ -38,7 +38,7 @@ class QuestionForm extends Component{
 
             <input
               type='submit'
-              className = "ui positive button"
+              className = "ui negative button"
               value='Do they have this'/>
 
       </form>
